@@ -1,0 +1,31 @@
+.title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  /* font-size: larger; */
+  color: white;
+}
+.card {
+  overflow-x: scroll;
+  width: 100%;
+  white-space: nowrap;
+  /* margin-left: 40px; */
+}
+.card::-webkit-scrollbar {
+  display: none;
+}
+.card img {
+  /* border-radius: 2/0px; */
+  width: 200px;
+  cursor: pointer;
+  margin: 4px;
+  /* margin: 2px; */
+}
+.card2:hover {
+  transform: scale(1.08);
+  transition: ease-in-out;
+  transition-duration: 1s;
+}
+.card3 {
+  height: 200px;
+}
